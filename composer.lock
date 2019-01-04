@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "content-hash": "29a9b432a0de3b38f0e9bebac9a88e6d",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1926,6 +1926,51 @@
             "time": "2018-11-20T16:10:26+00:00"
         },
         {
+            "name": "theluguiant/pse",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theluguiant/pse.git",
+                "reference": "b510acad458f3fe972d208879bafcfb7ac8a7295"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theluguiant/pse/zipball/b510acad458f3fe972d208879bafcfb7ac8a7295",
+                "reference": "b510acad458f3fe972d208879bafcfb7ac8a7295",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Pse.php"
+                ],
+                "psr-0": {
+                    "theluguiant\\pse\\": "Pse.php"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fredy Mauricio Garcia Mona",
+                    "email": "mauriciogmona@gmail.com"
+                }
+            ],
+            "description": "PHP library service placetoplay.",
+            "keywords": [
+                "placetopay",
+                "pse",
+                "pse services",
+                "service placetoplay"
+            ],
+            "time": "2018-11-08T15:58:43+00:00"
+        },
+        {
             "name": "tijsverkoyen/css-to-inline-styles",
             "version": "2.2.1",
             "source": {
@@ -3508,7 +3553,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "theluguiant/pse": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
